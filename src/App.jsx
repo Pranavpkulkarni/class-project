@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/class-project"> {/* Set basename to match your repo name */}
       <CssBaseline />
       <Header />
 
